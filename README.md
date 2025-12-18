@@ -11,8 +11,10 @@ This exam is split into two files to help you focus on one core concept at a tim
 
 ## 🛠 File 1: `sort_array.cpp` (The Logic Test)
 
-**Objective:** Take a messy list of 100 numbers and put them in order.
+**Objective:** Sort a pre-populated array of 100 numbers (1-100 in random order).
 
+- **Array provided:** An array called `numbers` with 100 integers is already declared and initialized for you.
+- **Your task:** Implement the sorting logic to arrange them in ascending order (1, 2, 3, ..., 100).
 - **What we're looking for:** A nested loop (a loop inside a loop) and a way to swap two numbers if they are in the wrong order.
 - **Don't sweat the small stuff:** If you forget the exact name of the array or misplace a curly bracket, you will still receive most of the credit as long as your **sorting logic** is visible.
 

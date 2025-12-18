@@ -9,9 +9,9 @@
  * Write a program that sorts an array of 100 integers in ascending order.
  *
  * REQUIREMENTS:
- * 1. Create an array of 100 integers (you can initialize it with random or predefined values)
+ * 1. Use the provided array 'numbers' containing integers 1-100 in random order
  * 2. Implement a sorting algorithm (Bubble Sort is recommended for simplicity)
- * 3. Display the array before and after sorting
+ * 3. Display the array before and after sorting (at least the first 10-20 elements)
  *
  * HINTS:
  * - You'll need a nested loop (a loop inside another loop)
@@ -44,7 +44,8 @@ int main()
 
   // TODO: Display the array BEFORE sorting
   cout << "Array before sorting:" << endl;
-  // Hint: Use a loop to print the first 10 elements so we can see the difference
+  // Hint: Use a loop to print the first 10-20 elements from the numbers array
+  // Example approach: for(int i = 0; i < 10; i++) { cout << numbers[i] << " "; }
 
   // TODO: Implement your sorting algorithm here
   // BUBBLE SORT APPROACH:
@@ -68,7 +69,7 @@ int main()
 
   // TODO: Display the array AFTER sorting
   cout << "\nArray after sorting:" << endl;
-  // Hint: Print the first 10 elements to verify they're now in order
+  // Hint: Print the first 10-20 elements to verify they're now in order (should be 1, 2, 3, ...)
 
   return 0;
 }
